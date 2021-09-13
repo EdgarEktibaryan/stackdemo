@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   web:
-    image: 127.0.0.1:5000/vote_app
+    image: 127.0.0.1:5000/stackdemo
     build: .
     ports:
       - "8000:8000"
